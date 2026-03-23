@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center; /* Centers vertically */
+  height: 100vh; /* Full viewport height */
+  gap: 60px;
+}
+
+.div1 {
+  height: 400px;
+  width: 400px;
+  background-color: red;
+}
+
+.div2 {
+  height: 400px;
+  width: 400px;
+  background-color: blue;
+}

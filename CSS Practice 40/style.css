@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center; /* its applied only the wrapping time or multiple lines*/
+  align-items: center; /* applied on each and every flext items*/
+  height: 500px;
+  background-color: blanchedalmond;
+}
+
+.direct-child1 {
+  height: 100px;
+  width: 100px;
+  background-color: rgb(8, 108, 75);
+}
+
+.direct-child2 {
+  height: 100px;
+  width: 100px;
+  background-color: rgb(8, 41, 108);
+}
+
+.direct-child3 {
+  height: 100px;
+  width: 100px;
+  background-color: rgb(153, 96, 11);
+}
+
+.direct-child4 {
+  height: 100px;
+  width: 100px;
+  background-color: rgb(153, 11, 110);
+}
+
+.a {
+  height: 20px;
+  width: 20px;
+  background-color: rgba(0, 0, 0, 0.318);
+}
+
+.b {
+  height: 20px;
+  width: 20px;
+  background-color: rgba(196, 211, 27, 0.318);
+}
+
+.c {
+  height: 20px;
+  width: 20px;
+  background-color: rgba(33, 27, 211, 0.318);
+}
+
+.d {
+  height: 20px;
+  width: 20px;
+  background-color: rgba(234, 8, 8, 0.675);
+}
